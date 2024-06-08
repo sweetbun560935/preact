@@ -1,0 +1,26 @@
+{
+  "name": "bias-rounding",
+  "version": "0.1.2",
+  "description": "Round a number to the floor or ceiling, based on your own set bias",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "rounding",
+    "Math"
+  ],
+  "author": "Nicholas Mole",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicholasmole/bias-rounding"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "round-floor-ceil": "^0.1.1"
+  }
+}
